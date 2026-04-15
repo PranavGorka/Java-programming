@@ -25,6 +25,8 @@ public class studentResult{
             System.out.println("average marks: +" avg);
         }catch(invalidMarksException e){
             System.out.println(e.getMessage());
+        }catch(Exception e){
+            System.out.println("error occured"));
         }
     }
 }
