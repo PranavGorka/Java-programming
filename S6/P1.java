@@ -14,6 +14,8 @@ class myThread extends Thread {
 public class threadExample {
   public static void main(String[] args){
     myThread T1 = new myThread();
+    T1.start();
+    
     for (int i = 0; i < 5; i++){
       System.out.println("Main Thread:" + i)
       try{
